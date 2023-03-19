@@ -12,7 +12,7 @@ import java.sql.SQLIntegrityConstraintViolationException;
 /**
  * 全局异常处理
  *
- * @author 杨振华
+ * @author alick
  * @since 2023/1/12
  */
 // @ControllerAdvice 注解来对annotation含有的注解执行异常处理

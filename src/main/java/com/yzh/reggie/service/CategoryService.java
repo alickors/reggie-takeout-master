@@ -5,7 +5,7 @@ import com.yzh.reggie.entity.Category;
 import com.yzh.reggie.entity.Employee;
 
 /**
- * @author 杨振华
+ * @author alick
  * @since 2023/1/12
  */
 public interface CategoryService extends IService<Category> {

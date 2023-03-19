@@ -8,7 +8,7 @@ import com.yzh.reggie.service.DishService;
 import org.springframework.stereotype.Service;
 
 /**
- * @author 杨振华
+ * @author alick
  * @since 2023/1/13
  */
 @Service

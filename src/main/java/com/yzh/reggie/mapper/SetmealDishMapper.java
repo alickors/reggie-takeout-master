@@ -5,7 +5,7 @@ import com.yzh.reggie.entity.SetmealDish;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @author 杨振华
+ * @author alick
  * @since 2023/1/14
  */
 @Mapper

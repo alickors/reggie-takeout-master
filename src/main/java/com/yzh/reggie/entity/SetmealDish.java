@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
  * 套餐+菜品
  * 套餐菜品关系
  *
- * @author 杨振华
+ * @author alick
  * &#064;date  2023/01/14
  */
 @Data

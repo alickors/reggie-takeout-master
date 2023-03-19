@@ -3,7 +3,7 @@ package com.yzh.reggie.common;
 /**
  * 基于ThreadLocal封装工具类，用户保存和获取当前登录用户的id
  *
- * @author 杨振华
+ * @author alick
  * @since 2023/1/12
  */
 public class BaseContext {

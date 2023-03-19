@@ -16,7 +16,7 @@ import java.io.IOException;
 /**
  * 登录检查过滤器
  *
- * @author 杨振华
+ * @author alick
  * @since 2023/1/9
  */
 @Slf4j

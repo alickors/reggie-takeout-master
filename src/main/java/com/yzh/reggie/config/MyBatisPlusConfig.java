@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 配置分页插件
  *
- * @author 杨振华
+ * @author alick
  * @since 2023/1/12
  */
 @Configuration

@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
 /**
  * 邮件工具类
  *
- * @author 杨振华
+ * @author alick
  * @date 2023/01/17
  */
 public class MailUtils {

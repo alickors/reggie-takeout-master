@@ -7,7 +7,7 @@ import com.yzh.reggie.service.UserService;
 import org.springframework.stereotype.Service;
 
 /**
- * @author 杨振华
+ * @author alick
  * @since 2023/1/15
  */
 @Service

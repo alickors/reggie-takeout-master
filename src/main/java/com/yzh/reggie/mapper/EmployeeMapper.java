@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * 员工mapper
  *
- * @author 杨振华
+ * @author alick
  * @since 2023/1/9
  */
 @Mapper

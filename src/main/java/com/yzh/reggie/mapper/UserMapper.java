@@ -5,7 +5,7 @@ import com.yzh.reggie.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @author 杨振华
+ * @author alick
  * @since 2023/1/15
  */
 @Mapper

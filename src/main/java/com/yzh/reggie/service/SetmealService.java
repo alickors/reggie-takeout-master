@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * setmeal服务
  *
- * @author 杨振华
+ * @author alick
  * @date 2023/01/13
  */
 public interface SetmealService extends IService<Setmeal> {

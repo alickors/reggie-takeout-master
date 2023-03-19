@@ -20,7 +20,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import java.util.List;
 
 /**
- * @author 杨振华
+ * @author alick
  * @since 2023/1/9
  */
 

@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 /**
  * 菜品口味
  *
- * @author 杨振华
+ * @author alick
  * @date 2023/01/13
  */
 @Data

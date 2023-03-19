@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * 分类mapper
  *
- * @author 杨振华
+ * @author alick
  * @since 2023/01/12
  */
 @Mapper
