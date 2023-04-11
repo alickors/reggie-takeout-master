@@ -248,7 +248,7 @@ public class SetmealController {
     /**
      * 删除redis缓存
      *
-     * @param dishDto 菜dto
+     * @param setmealDto 菜dto
      */
     private void deleteRedisCache(SetmealDto setmealDto) {
         // 清理所有菜品的缓存数据

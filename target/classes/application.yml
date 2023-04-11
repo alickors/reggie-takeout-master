@@ -35,4 +35,4 @@ mybatis-plus:
       time-to-live: 1800000 #设置缓存过期时间，可选
 
 reggie:
-  path: E:\项目\reggie1_upload
+  path: F:\project\reggie1_upload

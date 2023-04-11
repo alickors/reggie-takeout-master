@@ -9,8 +9,6 @@ import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 import com.alick.reggie.common.CustomException;
-import com.yzh.reggie.entity.*;
-import com.yzh.reggie.service.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
