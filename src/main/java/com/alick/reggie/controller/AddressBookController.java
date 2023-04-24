@@ -7,6 +7,9 @@ import com.alick.reggie.service.AddressBookService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -103,6 +106,7 @@ public class AddressBookController {
         //SQL:select * from address_book where user_id = ? order by update_time desc
         return R.success(addressBookService.list(queryWrapper));
     }
+
     /**
      * 额外添加功能：修改地址内容
      */
@@ -110,23 +114,24 @@ public class AddressBookController {
     public R<String> update(@RequestBody AddressBook addressBook) {
 
         LambdaQueryWrapper<AddressBook> queryWrapper = new LambdaQueryWrapper<>();
-        queryWrapper.eq(AddressBook::getId,addressBook.getId());
-        addressBookService.update(addressBook,queryWrapper);
+        queryWrapper.eq(AddressBook::getId, addressBook.getId());
+        addressBookService.update(addressBook, queryWrapper);
 
         return R.success("修改成功");
     }
 
     /**
      * 额外添加功能：删除地址内容
+     *
      * @param ids
      * @return
      */
     @DeleteMapping
-    public R<String> remove(Long ids){
+    public R<String> remove(Long ids) {
 
         addressBookService.removeById(ids);
 
         return R.success("修改成功");
-
     }
+
 }
