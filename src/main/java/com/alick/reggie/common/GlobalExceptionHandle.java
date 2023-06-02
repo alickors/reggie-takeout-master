@@ -10,7 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 import java.sql.SQLIntegrityConstraintViolationException;
 
 /**
- * 全局异常处理
+ *  上述的全局异常处理器上使用了的两个注解 @ControllerAdvice , @ResponseBody , 他们的作用分别为:
+ *
+ *  @ControllerAdvice : 指定拦截那些类型的控制器;
+ *
+ *  @ResponseBody: 将方法的返回值 R 对象转换为json格式的数据, 响应给页面;
+ *
+ *  上述使用的两个注解, 也可以合并成为一个注解 @RestControllerAdvice
  *
  * @author alick
  * @since 2023/1/12

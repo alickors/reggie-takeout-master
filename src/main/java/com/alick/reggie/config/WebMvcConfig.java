@@ -31,7 +31,9 @@ import java.util.List;
 public class WebMvcConfig extends WebMvcConfigurationSupport {
 
     /**
-     * 静态资源映射
+     * 用于在Springboot项目中, 默认静态资源的存放目录为 : “classpath:/resources/”, “classpath:/static/”, “classpath:/public/” ;
+     * 而在我们的项目中静态资源存放在 backend, front 目录中, 那么这个时候要想访问到静态资源, 就需要设置静态资源映射
+
      * @param registry
      */
     @Override
