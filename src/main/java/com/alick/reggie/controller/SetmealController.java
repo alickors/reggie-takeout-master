@@ -102,7 +102,7 @@ public class SetmealController {
     }
 
     @DeleteMapping()
-    @CacheEvict(value = "setmealCache",allEntries = true)
+    @CacheEvict(value = "setmealCache", allEntries = true)
     public R<String> delete(@RequestParam List<Long> ids){
         setmealService.removeWithDish(ids);
         return R.success("套餐删除成功！");
